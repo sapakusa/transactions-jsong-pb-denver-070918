@@ -1,5 +1,5 @@
 
-# Parsing Transactions [NOT WORKING]
+# Parsing Transactions
 
 Transactions are at the heart of Bitcoin. Transactions, simply put, are value transfers from one entity to another. We'll see in Chapter 7 how "entities" in this case are really smart contracts. But we're getting ahead of ourselves. Lets first look at what transactions in Bitcoin are, what they look like and how they are parsed.
 
