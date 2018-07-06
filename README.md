@@ -48,7 +48,6 @@ class Tx(Tx):
         # each input needs parsing
         # num_outputs is a varint, use read_varint(s)
         # each output needs parsing
-        # locktime is 4 bytes, little-endian
         # return an instance of the class (cls(...))
         pass
 
