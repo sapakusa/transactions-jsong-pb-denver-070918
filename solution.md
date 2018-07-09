@@ -1,7 +1,7 @@
 
 # Parsing Transactions
 
-Transactions are at the heart of Bitcoin. Transactions, simply put, are value transfers from one entity to another. We'll see in Chapter 7 how "entities" in this case are really smart contracts. But we're getting ahead of ourselves. Lets first look at what transactions in Bitcoin are, what they look like and how they are parsed.
+Transactions are at the heart of Bitcoin. Transactions, simply put, are value transfers from one entity to another. We'll see later how "entities" in this case are really smart contracts. But we're getting ahead of ourselves. Lets first look at what transactions in Bitcoin are, what they look like and how they are parsed.
 
 ### Transaction Components
 
@@ -20,8 +20,7 @@ When you see a version number in something, it's meant to give the receiver info
 
 In a similar way, Bitcoin transactions have version numbers. In Bitcoin's case, the transaction version has never been updated since version 1.
 
-You may notice here that the actual value in hexadecimal is 01000000, which doesn't look like 1. It actually is when the interpreted as a little-endian integer (recall the discussion from chapter 4).
-
+You may notice here that the actual value in hexadecimal is 01000000, which doesn't look like 1. It actually is when the interpreted as a little-endian integer.
 
 ### Test Driven Exercise
 
